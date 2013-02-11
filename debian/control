@@ -1,0 +1,14 @@
+Source: r-bioc-rtracklayer
+Section: gnu-r
+Priority: optional
+Maintainer: The Genome Institute <gmt@genome.wustl.edu>
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-bioc-genomicranges (>= 1.9.6), r-cran-xml (>= 1.98), r-bioc-biostrings (>= 2.25.6), r-bioc-bsgenome (>= 1.23.1), r-cran-rcurl (>= 1.4), r-bioc-biocgenerics (>= 0.1.0), r-bioc-zlibbioc, r-bioc-rsamtools (>= 1.7.3), r-bioc-iranges (>= 1.15.37)
+Homepage: http://bioconductor.org/packages/release/bioc/html/rtracklayer.html
+
+Package: r-bioc-rtracklayer
+Architecture: all
+Maintainer: Michael Lawrence <michafla@gene.com>
+Description: Extensible framework for interacting with multiple genome browsers (currently UCSC built-in) and manipulating annotation tracks in various formats (currently GFF, BED, bedGraph, BED15, WIG, BigWig and 2bit built-in). The user may export/import tracks to/from the supported browsers, as well as query and modify the browser state, such as the current viewport.
+License: Artistic2.0
+Depends: r-base-core, r-bioc-genomicranges (>= 1.9.6), r-cran-xml (>= 1.98), r-bioc-biostrings (>= 2.25.6), r-bioc-bsgenome (>= 1.23.1), r-cran-rcurl (>= 1.4), r-bioc-biocgenerics (>= 0.1.0), r-bioc-zlibbioc, r-bioc-rsamtools (>= 1.7.3), r-bioc-iranges (>= 1.15.37)
+
